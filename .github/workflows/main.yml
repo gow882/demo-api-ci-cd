@@ -22,4 +22,4 @@ jobs:
 
       - name: Chạy kịch bản API Test
         run: |
-          postman collection run RestfulBooker.postman_collection.json -e RestfulBooker.postman_environment.json
+          postman collection run RestfulBooker.postman_collection.json -e RestfulBooker.postman_environment.json -d booking_data.csv
